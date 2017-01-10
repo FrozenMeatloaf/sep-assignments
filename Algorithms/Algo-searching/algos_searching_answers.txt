@@ -1,0 +1,28 @@
+#1: Given the alphabetically sorted collection in this checkpoint, how many
+iterations would it take to find the value G using linear search?
+
+7 iterations
+
+#2: Given the alphabetically sorted collection in this checkpoint,
+how many iterations would it take to find the value G using binary search?
+
+1, because "high" would be `G`?
+
+#3: Calculate fib(10), fib(11), fib(12) by hand
+
+55, 89, 144
+
+#1: Given an unsorted collection of a million items, which algorithm would you
+choose between linear search and binary search? Would you use an iterative or
+recursive solution? Explain your reasoning.
+
+I'd use a binary search with recursion because the process would be faster.  Iteration
+linearly through millions of items would take a long amount of time.  Divide and conquering
+with binary would half this time.  Introducing recursion would keep the algorithm down.
+
+#2: Given a sorted collection of a million items, which algorithm would you choose
+between linear search and binary search? Would you use an iterative or
+solution? Explain your reasoning
+
+I would choose a binary search again since the item count is high.  Although recursion might not be
+necessary, it still may prove quicker to use.  Would also use less lines of code.
